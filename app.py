@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return 'Hello, Docker!'
+  return 'welcome to jenkings'
 
 @app.route('/widgets')
 def get_widgets():
